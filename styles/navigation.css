@@ -1,3 +1,4 @@
+/* Common nav styles */
 .navigation-wrapper {
   height: 220px;
   background-color: #11122b;
@@ -8,6 +9,7 @@
   padding: 60px 100px;
 }
 
+/* Left column styles */
 .navigation-wrapper > .left-column {
   display: flex;
   align-items: center;
@@ -31,4 +33,29 @@
   font-size: 0.8em;
   color: #858585;
   text-transform: uppercase;
+}
+
+/* Center column styles */
+
+.navigation-wrapper > .center-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 42px;
+  width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .banner-logo img {
+  width: 250px;
+  height: 100%;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
