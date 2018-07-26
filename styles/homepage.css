@@ -33,10 +33,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 .features-section > .columns-wrapper {
-  width: 900px;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
 }
@@ -45,13 +46,13 @@
   padding: 20px;
   margin: 42px;
   text-align: center;
-  border: 2px solid transparent;
-  border-radius: 2px;
+  border-bottom: 5px solid transparent;
+  border-radius: 10px;
   transition: 1s;
 }
 
 .features-section > .columns-wrapper > .column:hover {
-  border: 2px solid #11122b;
+  border-bottom: 5px solid #11122b;
 }
 
 .features-section > .columns-wrapper > .column :nth-child(1) {
@@ -62,4 +63,13 @@
   font-size: 1.5em;
   font-weight: 900;
   height: 50px;
+  transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+  letter-spacing: 1px;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+  letter-spacing: 2px;
 }
