@@ -29,11 +29,15 @@
   height: 400px;
   background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
   background-color: #cea135;
+  border-top: 10px solid white;
   color: #11122b;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Ubuntu Condensed", sans-serif;
+  -webkit-box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
 
 .features-section > .columns-wrapper {
