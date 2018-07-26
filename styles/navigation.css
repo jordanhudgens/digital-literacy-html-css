@@ -1,9 +1,34 @@
 .navigation-wrapper {
-  height: 250px;
+  height: 220px;
   background-color: #11122b;
   color: #cbcbcb;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 60px 100px;
+}
+
+.navigation-wrapper > .left-column {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-wrapper > .left-column > .icon {
+  margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+  font-size: 2em;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
+  font-size: 0.8em;
+  color: #858585;
+  text-transform: uppercase;
 }
