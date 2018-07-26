@@ -1,0 +1,9 @@
+.navigation-wrapper {
+  height: 250px;
+  background-color: #11122b;
+  color: #cbcbcb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+}

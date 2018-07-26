@@ -1,1 +1,17 @@
+/* Style Guide */
+/* Dark blue: 11122b */
+/* Yellow: cea135 */
+/* Off white: cbcbcb */
 
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Slab", serif;
+}
