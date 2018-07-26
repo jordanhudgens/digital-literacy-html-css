@@ -6,7 +6,42 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 100px;
+  padding: 80px 100px;
+  background-image: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      -135deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  background-size: 0.75rem 0.75rem, 0.75rem 0.75rem, 0.75rem 0.75rem,
+    0.75rem 0.75rem, 100% 1rem, 100% 1rem;
+  background-position: top center, top center, bottom center, bottom center,
+    top center, bottom center;
+  background-repeat: repeat-x;
 }
 
 /* Left column styles */
