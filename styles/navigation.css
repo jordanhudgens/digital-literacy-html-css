@@ -1,6 +1,6 @@
 /* Common nav styles */
 .navigation-wrapper {
-  height: 220px;
+  height: 190px;
   background-color: #11122b;
   color: #cbcbcb;
   display: flex;
@@ -33,6 +33,7 @@
   font-size: 0.8em;
   color: #858585;
   text-transform: uppercase;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 /* Center column styles */
@@ -56,6 +57,60 @@
 
 .navigation-wrapper > .center-column > .links-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #cbcbcb;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a:hover {
+  color: #cea135;
+}
+
+/* right column styles */
+.navigation-wrapper > .right-column {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-wrapper > .right-column > .cart-details-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  text-align: right;
+}
+
+.navigation-wrapper > .right-column > .cart-details-wrapper > .cart-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #858585;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 0.9em;
+}
+
+.navigation-wrapper
+  > .right-column
+  > .cart-details-wrapper
+  > .cart-link
+  a:hover {
+  color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .cart-icon-wrapper {
+  margin-left: 15px;
+  font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .cart-icon-wrapper a {
+  color: #cbcbcb;
+  transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .cart-icon-wrapper a:hover {
+  color: #cea135;
 }
