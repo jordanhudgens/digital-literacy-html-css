@@ -26,16 +26,40 @@
 
 /* Features */
 .features-section {
-  height: 300px;
+  height: 400px;
   background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
   background-color: #cea135;
+  color: #11122b;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .features-section > .columns-wrapper {
-  width: 800px;
+  width: 900px;
   display: flex;
   justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+  padding: 20px;
+  margin: 42px;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+  border: 2px solid #11122b;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+  font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+  font-size: 1.5em;
+  font-weight: 900;
+  height: 50px;
 }
