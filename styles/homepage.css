@@ -14,6 +14,7 @@
   background-color: #11122b;
   color: #cbcbcb;
   width: 290px;
+  border-radius: 2px;
 }
 
 .hero-section > .bottom-heading {
@@ -22,6 +23,7 @@
   padding: 1px 20px;
   margin-top: 15px;
   width: 107px;
+  border-radius: 2px;
 }
 
 /* Features */
