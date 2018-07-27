@@ -84,3 +84,46 @@ h5 {
 .footer > .social-media-icons-wrapper a:hover {
   color: #cea135;
 }
+
+.skewed-header {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.skewed-header > .header-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/backgrounds/about-us.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
+
+.skewed-header > .skewed-header-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+  width: 1000px;
+}
+
+.skewed-header
+  > .skewed-header-wrapper
+  > .skewed-header-content
+  > .heading-wrapper {
+  background-color: #11122b;
+  color: #cbcbcb;
+  width: 175px;
+  padding: 10px;
+  text-align: center;
+}
