@@ -104,6 +104,7 @@ h5 {
   background-size: 100%;
   transform: skewY(-6deg);
   transform-origin: top left;
+  filter: brightness(50%);
 }
 
 .skewed-header > .skewed-header-wrapper {
@@ -121,9 +122,49 @@ h5 {
   > .skewed-header-wrapper
   > .skewed-header-content
   > .heading-wrapper {
-  background-color: #11122b;
-  color: #cbcbcb;
+  background-color: #cea135;
+  color: #11122b;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
   width: 175px;
   padding: 10px;
   text-align: center;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  width: 1000px;
+}
+
+.content-wrapper > #chef {
+  margin: 25px 40px 30px 0px;
+  width: 350px;
+  float: left;
+  border: 1px solid #cea135;
+}
+
+.content-wrapper > p {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.dark-bg {
+  background-color: #11122b;
+  color: #cbcbcb;
+}
+
+.squares {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.squares > .square-text-wrapper {
+}
+
+.squares > .img-wrapper img {
+  width: 100%;
 }
