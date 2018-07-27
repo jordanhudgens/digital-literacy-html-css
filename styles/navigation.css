@@ -55,25 +55,25 @@
   height: 100%;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper {
+.links-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper > .nav-link {
+.links-wrapper > .nav-link {
   width: 70px;
   text-align: center;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+.links-wrapper > .nav-link a {
   font-family: "Ubuntu Condensed", sans-serif;
   color: #cbcbcb;
   text-decoration: none;
   transition: 0.5s;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper > .nav-link a:hover {
+.links-wrapper > .nav-link a:hover {
   color: #cea135;
   letter-spacing: 2px;
 }

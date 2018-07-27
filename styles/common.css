@@ -119,6 +119,25 @@ h5 {
 
 .skewed-header > .skewed-header-wrapper > .skewed-header-content {
   width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skewed-header
+  > .skewed-header-wrapper
+  > .skewed-header-content
+  > .links-wrapper {
+  display: flex;
+}
+
+.skewed-header
+  > .skewed-header-wrapper
+  > .skewed-header-content
+  > .links-wrapper
+  > .nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .skewed-header
