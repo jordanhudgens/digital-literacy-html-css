@@ -7,4 +7,21 @@
 
 .metadata-logo img {
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.metadata-wrapper {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 1.25em;
+  align-items: center;
+}
+
+.metadata-wrapper i {
+  color: #cea135;
 }
