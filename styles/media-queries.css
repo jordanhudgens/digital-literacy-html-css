@@ -11,7 +11,13 @@
   }
 
   .navigation-wrapper > .center-column {
+    width: 100%;
     order: 1;
+  }
+
+  .navigation-wrapper > .center-column > .banner-logo img {
+    width: 100%;
+    height: 100%;
   }
 
   .navigation-wrapper > .right-column {
@@ -29,5 +35,22 @@
     margin-bottom: 10px;
     font-size: 1.5em;
     width: 100%;
+  }
+
+  .hero-section {
+    padding: 50px 10px;
+  }
+
+  .features-section {
+    height: 100%;
+  }
+
+  .features-section > .columns-wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer {
+    height: 100%;
   }
 }
