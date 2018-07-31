@@ -75,4 +75,12 @@
   .square {
     grid-template-columns: 1fr;
   }
+
+  .square > .img-wrapper {
+    order: 2;
+  }
+
+  .square > .menu-list {
+    order: 1;
+  }
 }
