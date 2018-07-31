@@ -53,4 +53,22 @@
   .footer {
     height: 100%;
   }
+
+  .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    flex-direction: column;
+  }
+
+  .skewed-header > .header-bg {
+    background-size: 550px;
+  }
+
+  .page-container {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+
+  .content-wrapper > #chef {
+    margin: 0px 0px 25px 0px;
+    width: 100%;
+  }
 }
