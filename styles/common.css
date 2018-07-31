@@ -86,6 +86,10 @@ h5 {
   color: #cea135;
 }
 
+.copyright-wrapper {
+  margin-bottom: 42px;
+}
+
 /* skewed header */
 
 .skewed-header {
