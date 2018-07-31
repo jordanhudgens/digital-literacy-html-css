@@ -99,3 +99,10 @@
     width: calc(100% - 1.5rem);
   }
 }
+
+@media (max-width: 1045px) {
+  .page-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
