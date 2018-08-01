@@ -25,12 +25,12 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 500px;
+  height: 400px;
   margin-top: -4px;
 }
 
 .footer > .logo-footer img {
-  width: 250px;
+  width: 180px;
   height: 100%;
   /* filter: brightness(50%); */
   opacity: 0.5;
@@ -39,7 +39,7 @@ h5 {
 .footer > .footer-phone-hours span {
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 2px;
 }
 
@@ -88,6 +88,8 @@ h5 {
 
 .copyright-wrapper {
   margin-bottom: 42px;
+  font-size: 0.7em;
+  color: #858585;
 }
 
 /* skewed header */
